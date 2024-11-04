@@ -19,6 +19,19 @@
         text-decoration: underline;
         
     }
+    p{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: smaller;
+    }
+    #description{
+        color: #0000ff;
+        font-weight: bold;
+    }
+
+    .special{
+        color: red;
+        font-style: italic;
+    }
     </style>
 </head>
 <body>
@@ -27,16 +40,28 @@
 
     <h1>Internal Styling To Apply</h1>
 
-    <P style="background-color: black; color: white;">CSS: Cascading Style Sheet</P>
-    <p>Threre are three ways to use css</p>
+    <P>CSS: Cascading Style Sheet</P>
+    <p id="description">There are three ways to use css</p>
     <ul style=" font-size: medium; color: red;">
         <li>Inline Styling</li>
         <li style="color: blue; text-transform: uppercase;">Internal Styling</li>
         <li>External Styling</li>
     </ul>
 
-    <div>
-        This is a long Paragraph
+    <div id="description" style="text-decoration: none;">
+        This is a long div element
     </div>
+
+    <h1>CSS Selectors</h1>
+    <p>There are two type of Selectors</p>
+    <ul>
+        <li>ID</li>
+        <li>Class</li>
+    </ul>
+
+    <p class="special">We write to humble heart,
+
+        Accept our Application
+    </p>
 </body>
 </html>
